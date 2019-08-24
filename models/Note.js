@@ -6,8 +6,7 @@ var Schema = mongoose.Schema;
 // Create new ArticleSchema object using Schema constructor
 var NoteSchema = new Schema({
     title: String,
-    body: String,
-    name: String
+    body: String
 });
 
 var Note = mongoose.model("Note", NoteSchema);
